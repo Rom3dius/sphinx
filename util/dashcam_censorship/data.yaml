@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['license-plates', 'street-signs']
+
+roboflow:
+  workspace: romedius-38mrp
+  project: dashcam_censorship
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/romedius-38mrp/dashcam_censorship/1

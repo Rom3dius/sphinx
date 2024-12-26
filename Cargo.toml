@@ -1,0 +1,8 @@
+[package]
+name = "sphinx"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yolox-burn = { git = "https://github.com/tracel-ai/models", package = "yolox-burn", default-features = false }
+bpaf = { version = "0.9", features = ["autocomplete"] }
